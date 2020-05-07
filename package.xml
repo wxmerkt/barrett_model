@@ -1,4 +1,4 @@
-<package>
+<package format="3">
   <name>barrett_model</name>
   <version>0.5.1</version>
   <description>
@@ -18,8 +18,5 @@
   <url>http://ros.org/wiki/barrett_model</url>
 
   <buildtool_depend>catkin</buildtool_depend>
-
-  <run_depend>xacro</run_depend>
+  <depend>xacro</depend>
 </package>
-
-
