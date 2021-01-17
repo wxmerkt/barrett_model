@@ -12,7 +12,7 @@ set(xacro_files
     ${CMAKE_CURRENT_SOURCE_DIR}/robots/wam7_bhand.urdf.xacro
 )
 
-xacro_add_files(${xacro_files} INORDER INSTALL DESTINATION robots)
+xacro_add_files(${xacro_files} INSTALL DESTINATION robots)
 
 install(DIRECTORY models robots
         DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION})
